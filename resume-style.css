@@ -1,0 +1,96 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h3, h5 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Badges for Hobbies and Known Languages */
+.badge {
+    margin: 5px;
+    font-size: 14px;
+    background: #007bff;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact and Summary Section */
+.text-secondary {
+    font-size: 14px;
+    color: #6c757d;
+    text-align: center;
+}
+
+/* Padding and Borders for Sections */
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline-width: 1px;
+    outline-color: black;
+    outline-style: solid;
+}
